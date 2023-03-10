@@ -1,0 +1,6 @@
+print('!!!!!!!!!!!! Verificando Nomes !!!!!!!!!!!!!!!')
+nome = str(input('Digite o seu nome completo: ')).strip()
+nnome = nome.title()
+no = ('Silva' in nnome)
+print('Você possui o sobrenome Silva ? {}'.format(no))
+print(nnome)

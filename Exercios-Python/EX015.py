@@ -1,0 +1,23 @@
+print('-------- LOCALIZA AUTOMOVEIS --------')
+veiculo = input('Veiculo que sera locado: ')
+nome_pessoa = input('Digite o Nome do contratante: ')
+placa = input('Digite a Placa do veiculo: ')
+km = float(input('Digite o KM percorrido: '))
+dia = int(input('Digite a quantidade de Dias alugado: '))
+kmroda = km * 0.15
+diaria = dia * 60
+total = kmroda + diaria
+input('Pressione <enter> para continuar.')
+print('\n------- Dados do Contratante --------\n')
+print('O Sr(a): {}, fez a locação do veiculo: {} da placa Nr: {}\n'.format(nome_pessoa,veiculo,placa))
+print('O veiculo ficou {} dias locado pelo valor de R$60,00 a diaria.\n'.format(dia))
+print('Veiculo com a Kilometragem em {}km, com o custo de R$0.15, por km rodado.\n'.format(km))
+input('Pressione <enter> para continuar.')
+print('\n ---------- Serviço de Locação ----------------\n')
+print('Total dos serviços')
+print('Veiculo:{}'.format(veiculo))
+print('Placa:{}'.format(placa))
+print('Cliente:{}'.format(nome_pessoa))
+print('Valor total dos KM rodados R$:{}'.format(kmroda))
+print('Valor total das diarias R$:{}'.format(diaria))
+print('Valor final da locação R$:{}'.format(total))

@@ -1,0 +1,8 @@
+print('------ Verficando Nomes -------')
+nome = str(input('Digite seu nome completo: '))
+dividido = nome.split()
+n1 = len(dividido[0])
+print('Seu nome todo em letras Maiúsculas: {}'.format(nome.upper()))
+print('Seu nome todo em letras Minusculas: {}'.format(nome.lower()))
+print('Seu primeiro nome tem {} letras'.format(n1))
+print('Seu nome completo tem {} letras ao total!'.format(len(nome)-nome.count(' ')))

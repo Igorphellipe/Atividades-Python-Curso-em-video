@@ -1,0 +1,5 @@
+print('------ Contando Letras -------')
+frase = str(input('Digite um frase para analise: ')).strip().upper()
+print('Sua frase posui a letra "A" {} vezes'.format(frase.count('A')))
+print('A primeira letra "A" fica na posição {}'.format(frase.find('A')+1))
+print('A ultima letra "A" fica na posição {}'.format(frase.rfind('A')+1))
